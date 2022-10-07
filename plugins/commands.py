@@ -84,6 +84,8 @@ async def start(client, message):
         buttons = [[
             InlineKeyboardButton('➕ Add Me To Your Groups ➕', url=f'http://t.me/{temp.U_NAME}?startgroup=true')
             ],[
+             InlineKeyboardButton('official Group', url=f'http://t.me/Moviecenter001')
+            ],[
             InlineKeyboardButton('🤖 Official Group', url='https://t.me/yourmoviesreq')
             ],[
             InlineKeyboardButton('🛠️ Tools', callback_data='help'),
